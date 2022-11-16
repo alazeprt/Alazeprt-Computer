@@ -1,0 +1,11 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "down": "apcomputer:block/medium_pc_down",
+    "up": "apcomputer:block/medium_pc_up",
+    "north": "apcomputer:block/medium_pc_north",
+    "east": "apcomputer:block/medium_pc_east",
+    "south": "apcomputer:block/medium_pc_south",
+    "west": "apcomputer:block/medium_pc_west"
+  }
+}

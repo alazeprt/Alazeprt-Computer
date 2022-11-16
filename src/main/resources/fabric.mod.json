@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "apcomputer",
-  "version": "0.5.0-beta",
+  "version": "1.0.1.1",
 
   "name": "Alazeprt's Computer Mod",
   "description": "In this mod, the computer and its hardware are added (for decoration)",

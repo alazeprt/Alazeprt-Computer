@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "apcomputer:low_pc"
+    "apcomputer:low_pc",
+    "apcomputer:medium_pc"
   ]
 }

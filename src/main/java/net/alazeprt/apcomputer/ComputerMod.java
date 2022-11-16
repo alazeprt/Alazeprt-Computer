@@ -20,6 +20,7 @@ public class ComputerMod implements ModInitializer {
 	// That way, it's clear which mod wrote info, warnings, and errors.
 	public static final Logger LOGGER = LoggerFactory.getLogger("apcomputer");
 	public static final Block LOW_PC = new pc(FabricBlockSettings.of(Material.METAL).requiresTool().hardness(1.5f));
+	public static final Block MEDIUM_PC = new pc(FabricBlockSettings.of(Material.METAL).requiresTool().hardness(1.5f));
 
 
 	@Override
@@ -28,8 +29,12 @@ public class ComputerMod implements ModInitializer {
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.
 		LOGGER.info("Alazeprt's Computer Mod is Register Info...");
+		// register block
 		Registry.register(Registry.BLOCK, new Identifier("apcomputer", "low_pc"), LOW_PC);
+		Registry.register(Registry.BLOCK, new Identifier("apcomputer","medium_pc"),MEDIUM_PC);
+		// register item
 		Registry.register(Registry.ITEM, new Identifier("apcomputer", "low_pc"), new BlockItem(LOW_PC, new FabricItemSettings().group(ItemGroup.MISC)));
+		Registry.register(Registry.ITEM, new Identifier("apcomputer","medium_pc"),new BlockItem(MEDIUM_PC, new FabricItemSettings().group(ItemGroup.MISC)));
 		LOGGER.info("Alazeprt's Computer Mod is Loading...");
 	}
 }

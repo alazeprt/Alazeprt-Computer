@@ -1,3 +1,4 @@
 {
-  "block.apcomputer.low_pc": "低级主机"
+  "block.apcomputer.low_pc": "低级主机",
+  "block.apcomputer.medium_pc": "中级主机"
 }
