@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "apcomputer",
+  "version": "0.5.0-beta",
+
+  "name": "Alazeprt's Computer Mod",
+  "description": "In this mod, the computer and its hardware are added (for decoration)",
+  "authors": [
+    "alazeprt"
+  ],
+  "contact": {
+    "homepage": "https://github.com/alazeprt/Alazeprt-s-Computer",
+    "sources": "https://github.com/alazeprt/Alazeprt-s-Computer"
+  },
+
+  "license": "GNU Lesser General Public License(LGPL) v3.0",
+  "icon": "assets/apcomputer/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.alazeprt.apcomputer.ComputerMod"
+    ]
+  },
+
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "fabric-api": "*",
+    "minecraft": "~1.18",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
