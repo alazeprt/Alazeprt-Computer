@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "alazeprts-computer:block/poor_pc", "uvlock": true },
+    "facing=east":  { "model": "alazeprts-computer:block/poor_pc", "y":  90, "uvlock": true },
+    "facing=south": { "model": "alazeprts-computer:block/poor_pc", "y": 180, "uvlock": true },
+    "facing=west":  { "model": "alazeprts-computer:block/poor_pc", "y": 270, "uvlock": true }
+  }
+}

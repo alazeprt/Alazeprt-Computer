@@ -1,32 +1,33 @@
 {
 	"schemaVersion": 1,
 	"id": "apcomputer",
-	"version": "${version}",
-	"name": "Alazeprt's Computer",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"version": "2.0-alpha.1",
+
+	"name": "Alazeprt's Computer Mod",
+	"description": "A mod with added computer",
 	"authors": [
-		"Me!"
+		"alazeprt"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://github.com/alazeprt/Alazeprt-Computer",
+		"sources": "https://github.com/alazeprt/Alazeprt-Computer"
 	},
-	"license": "CC0-1.0",
+
+	"license": "GNU Lesser General Public License(LGPL) v3.0",
 	"icon": "assets/alazeprts-computer/icon.png",
+
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.alazeprt.ExampleMod"
+			"com.alazeprt.APComputer"
 		]
 	},
-	"mixins": [
-		"alazeprts-computer.mixins.json"
-	],
+
 	"depends": {
-		"fabricloader": ">=0.14.11",
+		"fabricloader": ">=0.14.8",
+		"fabric-api": "*",
 		"minecraft": "~1.18.2",
-		"java": ">=17",
-		"fabric-api": "*"
+		"java": ">=17"
 	},
 	"suggests": {
 		"another-mod": "*"
